@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harsh Coffee and Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+    body {
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(/imgs/bg.jpg);
+    }
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 34px;
+        /* border: 2px solid red; */
+        text-align: center;
+
+    }
+
+    .left img {
+        width: 70px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 6px 6px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Kanit', sans-serif;
+        background-color: black;
+        color: white;
+        margin: 4px 8px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        color: darkgrey;
+    }
+
+    .container{
+        /* border: 2px solid white; */
+        width: 30%;
+        margin: 100px;
+        padding: 50px 50px;
+        border-radius: 15px;
+    }
+
+    .form-group input{
+        font-family: 'Kanit', sans-serif;
+        /* border:2px solid black; */
+        padding: 5px;
+        text-align: center;
+        width: 200px;
+        display:block;
+        margin: 11px auto;
+        border-radius: 15px;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="file:///C:/Web%20Develpoment/1st%20Html%20and%20Css%20proj/imgs/logo.jpg" alt="">
+            <div>Harsh Coffee and Gym</div>
+        </div>
+
+        <!-- midbox fr navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right boc for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h3>Join the best GYM in Mumbai</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
